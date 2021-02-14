@@ -2,7 +2,7 @@ import requests
 import tkinter as tk
 import tkinter.messagebox
 
-uuid = '7d6b77fc-0f0d-4d3a-9a3c-7b70311f2894'
+uuid = ''
 count = 10000
 url = 'https://lv.dingtalk.com/interaction/createLike?uuid=' + uuid + '&count=' + str(count)
 print(url)
